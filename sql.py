@@ -15,7 +15,7 @@ table_info3="""
 Create table Resume(Id INTEGER PRIMARY KEY   AUTOINCREMENT,CandidateName varchar(25),CandidateSkills varchar(25));
 """
 cursor.execute(table_info3)
-##insert records
+##insert records.
 cursor.execute(''' Insert into Job values(NULL,'Job1','.Net Full Stack') ''')
 cursor.execute(''' Insert into Job values(NULL,'Job2','java Full Stack') ''')
 cursor.execute(''' Insert into Job values(NULL,'Job3','servicenow Full Stack') ''')
